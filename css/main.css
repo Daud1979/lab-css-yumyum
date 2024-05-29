@@ -1,1 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=League+Spartan:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 *, :before, :after {box-sizing:border-box;}
+:root{
+    --orange:#FA7344;
+    
+}
+h1,h2,h3,h4,button{
+    font-family: 'Intro',sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+body{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav{
+    
+    display: flex;
+    padding: 0 10px 20px 10px;
+    justify-content: space-between;
+    
+}
+
+.masthead h1 {
+    margin: 0;
+    padding: 0 0 2px 0;
+    color: var(--orange);
+    
+}
+.masthead p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    color: #CACECF;
+}
+.nav-mobil{
+    display: flex;
+    gap:20px;    
+}
+#hamburger{
+    width: 28px;
+}
+#cart{
+    width: 27px;
+}
+.header-img{
+    background-color: #CCCCCC;
+}
+.header-img img{
+   width: 100%;   
+   
+}
+.header-form{
+    padding:0 ;
+    margin: 0;
+    background:linear-gradient(#C0DA38, #74CC52);
+    padding: 25px 0  25px 0;
+}
+.header-form h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    color: white;
+    padding: 18px;
+    margin: 0;
+}
+.form label{
+    display: flex;
+    padding: 18px;
+    margin: 0 auto;
+    gap: 10px;
+    width: 90%;
+    background:#FFFFFF;
+   
+}
+.form input{
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    border: none;    
+}
+.form-labelOne{
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px rgb(235, 233, 233) solid;
+}
+.form-labelTwo{
+    border-radius: 0 0 10px 10px;
+    border-top: 1px rgb(235, 233, 233) solid;
+}
+.form img{
+    width: 20px;       
+}
+.form p{   
+    width: 90%;
+    margin: 18px auto;
+}
+form button{
+    padding: 20px 40px 20px 40px;
+    font-size: 18px;
+    background: var(--orange);
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+section h2{
+    color: var(--orange);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.8rem;
+    padding: 25px 0 35px 0;
+}
+
+.section-class{
+ width: 100%;
+ display: flex;
+ padding: 0 15px 35px 15px;
+ gap: 15px;
+}
+.ladoizq img{
+    width: 90px;
+}
+.ladoizq{
+    width: 35%;
+
+  }
+.ladoder{
+  width: 65%;
+  padding: 0;
+}
+.ladoder h3{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #292929;
+}
+.ladoder p{
+    line-height: 25px;
+    color: #5e5d5d;
+    font-size: 16px;
+}
+span{
+    font-weight: 400;
+    padding-right: 15px;
+    color: #292929;
+}
+.section-color{
+    background: #F8F9F3;
+    padding-bottom: 30px;
+}
+.dishes-content{
+    padding: 0 10px 0 10px;
+}
+.content-body img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 20px;
+}
+.content-body{
+    background: white;  
+    padding-bottom: 25px;  
+}
+.content-p{
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    color: #3f3e3e;    
+    padding-left: 15px;
+}
+.content-name{
+    padding: 0;
+    margin: 0;
+    padding: 10px 0 0 15px;
+   font-size: 0.8rem;
+    color: #CACECF;
+}
+.content-button p {
+    margin: 0;
+    padding: 0;
+}
+.content-button{
+    padding: 0 0 25px 0;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #bdbbbb;
+}
+.buynow{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    padding:7px 15px 7px 15px;
+    font-style: italic;
+    background: #5FB038;
+    border-radius: 5px;
+    border: none;    
+}
+.content-button p{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #3f3e3e;
+}
+.content-star{
+    padding: 0 15px 0 15px;
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+}
+.content-star img{
+    width: 20px;   
+    padding: 0;
+    margin: 0;
+}
+.content-star p{
+    padding: 0;
+    margin: 0;
+    color:#5e5d5d
+}
+.content-star span{
+    font-size: 10px;
+    padding: 0;
+    max-width: 0;
+}
+.aside{
+    background:linear-gradient(#FA7143, #EE3B51);
+}

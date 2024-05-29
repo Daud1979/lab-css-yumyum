@@ -1,65 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="Es">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yum-Yum</title>
     <link rel="stylesheet" href="fonts/Intro/index.css" />
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header>
       <nav>
         <div class="masthead">
-          <h1>YUM-YUM</h1>
+          <h1>Y&nbsp;U&nbsp;M&nbsp;-&nbsp;Y&nbsp;U&nbsp;M</h1>
           <p>Local Cuisine Delivered</p>
         </div>
 
-        <div>
-          <a href="javascript:void 0;">Menu</a>
-          <a href="javascript:void 0;">Panier</a>
+        <div class="nav-mobil">
+          <a href="javascript:void 0;"><img  id="hamburger" src="images/hamburger.svg" alt=""></a>
+          <a  href="javascript:void 0;"><img id="cart" src="images/cart.svg" alt=""></a>
         </div>
-      </nav>
-
+      </nav>  
+      <div class="header-img">
+       <img src="https://via.placeholder.com/800x600" alt=""> 
+      </div>
+      <div class="header-form">
       <h2>Order from restaurants around you</h2>
-      <form action="javascript:void 0;">
-        <label>
-          Enter your address
-          <input type="text" name="address" />
+      <form class="form" action="javascript:void 0;">
+        <label class="form-labelOne">
+          <img src="images/pin.svg" alt="">
+          <input type="text" placeholder="Enter your address" name="address" />
         </label>
 
-        <label>
-          What would you like
-          <input type="text" name="foodtype" />
+        <label class="form-labelTwo">
+          <img src="images/bbq.svg" alt="">
+          <input type="text" placeholder="What would you like" name="foodtype" />
         </label>
 
         <p>
           <button type="submit">Find a food</button>
         </p>
       </form>
+    </div>  
     </header>
 
     <section>
-      <h2>How it works</h2>
-
-      1. Search Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 2. Order Maecenas nec odio et ante
-      tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 3. Eat Maecenas nec odio et ante tincidunt
-      tempus. Donec vitae sapien ut libero venenatis faucibus.
+      <h2>How it works?</h2>
+      <div class="section-class">
+        <div class="ladoizq">
+          <img src="images/map.png" alt="">
+        </div>
+        <div class="ladoder">
+          <h3><span>1.</span>Search </h3>
+          <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. </p>
+        </div>
+      </div>
+      <div class="section-class">
+        <div class="ladoizq">
+          <img src="images/clipboard.png" alt="">
+        </div>
+        <div class="ladoder">
+          <h3><span>2.</span>Order </h3>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. </p>
+        </div>
+          
+      </div>
+      <div class="section-class">
+        <div class="ladoizq">
+          <img src="images/bag.png" alt="">
+        </div>
+        <div class="ladoder">
+          <h3><span>3.</span>Eat </h3>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis fauci-bus.</p>
+        </div>
+         
+      </div>
     </section>
 
-    <section>
+    <section class="section-color">
       <h2>Dishes</h2>
-
-      Pasta with Lamb Ragù: Coppa, Boston Christine Quinlan $ 19.95 Buy Now 5 stars 1,679 Ratings Pasta with Lamb Ragù:
-      Coppa, Boston Christine Quinlan $ 5.99 Buy Now 4 stars 12 Ratings Pork Rillette Hand Pies: Olympic Provisions;
-      Portland, OR Joey Pepperoni's Pizza $ 10.80 Buy Now 4 stars 33 Ratings
+      <div class="dishes-content">
+        <div class="content-body">
+          <img src="https://via.placeholder.com/800x600" alt="">
+          <p class="content-p">Pasta with Lamb Ragù:</p>
+          <p class="content-p">Coppa, Boston</p>
+          <p class="content-name">Christine Quinlan</p>
+          <div class="content-button">
+            <p>$ 19.95</p>
+            <button class="buynow">Buy Now</button>
+          </div>
+          <div class="content-star">
+            <div>
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+            </div>
+            <p>1,679 Ratings <span>></span> </p>
+          </div>
+          <!-- 5 stars  -->
+        </div>
+      </div>
+      <div class="dishes-content">
+        <div class="content-body">
+          <img src="https://via.placeholder.com/800x600" alt="">
+          <p class="content-p">Pasta with Lamb Ragù:</p>
+          <p class="content-p">Coppa, Boston</p>
+          <p class="content-name">Christine Quinlan</p>
+          <div class="content-button">
+            <p>$ 5.99</p>
+            <button class="buynow">Buy Now</button>
+          </div>
+          <div class="content-star">
+            <div>
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+            </div>
+            <p>12 Ratings <span>></span> </p>
+          </div>
+          <!-- 5 stars  -->
+        </div>
+      </div>
+      <div class="dishes-content">
+        <div class="content-body">
+          <img src="https://via.placeholder.com/800x600" alt="">
+          <p class="content-p">Pork Rillette Hand Pies:</p>
+          <p class="content-p">Olympic Provisions; Portland, OR</p>
+          <p class="content-name">Joey Pepperoni's</p>
+          <div class="content-button">
+            <p>$ 10.80</p>
+            <button class="buynow">Buy Now</button>
+          </div>
+          <div class="content-star">
+            <div>
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+              <img  src="images/star.svg" alt="">
+            </div>
+            <p>33 Ratings <span>></span> </p>
+          </div>
+          <!-- 5 stars  -->
+        </div>
+      </div>    
     </section>
-
-    <aside>
+    <aside class="aside">
       Easy Online No need to pick up the phone.Quick and accurate ordering is here. 12 000+ Menus Discovery new places —
       order your usual and throw away those paper Discounts & Deals Get exclusive offers and save on your delivery
       favorites Anytime, Anywhere On-the-go? Che out our conveniant apps for iOS and Android
     </aside>
 
-    <section>
+    <section class="section-color">
       <h2>Restaurant by Cuisine</h2>
 
       A La Carte 189 dishes Fast Food 3,750 dishes Italian 708 dishes
@@ -78,7 +173,7 @@
       Get to know us About AlaCartee How Our Ordering Works Blog Press Business Solutions Join Our Restaurant Network
       Company Accounts Social Facebook Twitter Pinterest Contact Us Help Suggev
 
-      <address class="copy">© 2014 Yum Yum. With love by HezyTheme Terms Privacy Contact Us</address>
+      <address class="copy section-color">© 2014 Yum Yum. With love by HezyTheme Terms Privacy Contact Us</address>
     </footer>
   </body>
 </html>
